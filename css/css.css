@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.active {
+    background: #ff947a;
+}
+ul{
+    width: 100%;
+    height: 100%;
+}
+/*#test {*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*position: absolute;*/
+    /*left: 20px;*/
+    /*top:20px;*/
+    /*background: #a593ff;*/
+/*}*/
+#ol {
+    position: fixed;
+    left: 180px;
+    top: 100px;
+}
+#ol li {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    /*background: grey;*/
+    cursor: pointer;
+    border:1px solid rgba(58, 50, 255, 0.99);
+}
+#main li {
+    width: 100%;
+    height: 100%;
+}
+
+/*轮播图样式*/
+#lb {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 340px;
+    border: 1px solid rgba(81, 49, 255, 0.99);
+    overflow: hidden;
+}
+
+#lb ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3600px;
+}
+#lb ul li {
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    font-family: "Adobe 繁黑體 Std B";
+    color: rgba(61, 255, 63, 0.99);
+    float: left;
+}
+#lb ol {
+    position: absolute;
+    left: 400px;
+    top: 160px;
+}
+#lb ol li {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border:1px solid rgba(134, 255, 240, 0.99);
+    border-radius: 30px 0;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+#lb span {
+    width: 20px;
+    height: 20px;
+    background:rgba(255, 200, 151, 0.99);
+    opacity: 0.3;
+    line-height: 20px;
+    text-align: center;
+    display: none;
+}
+#lb .back {
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    cursor: pointer;
+}
+#lb .head {
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    cursor: pointer;
+}
